@@ -18,7 +18,7 @@
   flex-direction: column;
   background-image: url(../assests/img/baul.jpg);
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   gap: 30%;
@@ -271,6 +271,7 @@ height: 400px;
 display: flex;
 flex-direction: column;
 margin-top: 50px;
+margin-bottom: 150px;
 padding-top: 50px;
 justify-content: center;
 align-items: center;
@@ -326,7 +327,6 @@ display: block;
   background-color: black;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 150px;
 }
 
 .footer-one, .footer-two, .footer-three{
@@ -367,14 +367,13 @@ display: block;
 
 .form{
   width: 800px;
-  height: 600px;
+  height: 6%;
   background: #fff;
   margin: 70px auto;
   padding: 30px 20px 40px;
   text-align: center;
   border-radius: 8px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
-  overflow: hidden;
 }
 
 .form-tittle{
@@ -421,4 +420,141 @@ display: block;
 
 /* envios */
 
+.fondo-envios{
+  background: linear-gradient(to right, #243949da 0%, #517fa4d2 100%), url(../assests/img/pirateship.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 50px 70px 100px 70px;
+}
+
+.presentation-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  gap: 2.5rem;
+  margin-bottom: 80px;
+}
+
+.presentation-container h2{
+  font-size: 2.5rem;
+  color: #D4C08B;
+}
+
+.presentation-container h6{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.parrafo-container { 
+  padding: 20px;
+  text-align: justify;
+}
+
+.parrafo-titulo {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: #D4C08B;
+}
+
+.content-container p {
+  margin-bottom: 15px; 
+  font-size: 1.125rem;
+  font-weight: 400;
   
+}
+
+.content-container ul {
+  margin-bottom: 15px;  
+  padding-left: 20px; 
+}
+
+.content-container li {
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: 1.125rem;
+  font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+@media (max-width 1024px){
+
+
+
+}
+
+@media (max-width 768px){
+
+
+
+}
+
+@media (max-width 425px){
+
+
+
+}
+
+@media (max-width 320px){
+
+
+
+}
