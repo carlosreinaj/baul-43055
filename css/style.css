@@ -56,7 +56,7 @@
   list-style-type: none;
   align-items: center;
   margin-right: 20px;
-  padding-right: 2.5rem;
+ 
 }
 
 .list-navbar a {
@@ -363,13 +363,18 @@ display: block;
   background: linear-gradient(to right, #243949 0%, #517fa438 100%), url(../assests/img/baul-fondo-lux.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.form-container{
+padding: 4.375rem 2.5rem;
 }
 
 .form{
-  width: 800px;
-  height: 6%;
+  width: 50rem;
   background: #fff;
-  margin: 70px auto;
+  margin: 0 auto;
   padding: 30px 20px 40px;
   text-align: center;
   border-radius: 8px;
@@ -484,7 +489,6 @@ display: block;
   list-style: none;
   font-size: 1.125rem;
   font-weight: 400;
-
 }
 
 
@@ -535,26 +539,318 @@ display: block;
 
 
 /* RESPONSIVE */
-@media (max-width 1024px){
 
+
+
+
+@media(max-width: 1024px){
+  .form{
+    width: 700px;
+}
+}
+
+@media (max-width: 768px){
+/* HEADER */
+.header-fondo {
+  height: 200pX;
+  gap: 35px;
+}
+
+
+.logo-navbar {
+
+  width: 11.875rem;
+  height: 4.375rem;
+  margin-top: .3125rem;
+ 
+}
+
+.list-navbar {
+  gap: 15px;
+
+}
+
+.list-navbar a {
+  font-size: 1rem;
+  
+ 
+}
+
+.logo-header img{
+ width: 34rem;
+ height: 4.375rem;
+}
+
+
+/* PAG CONTACTANOS */
+
+  .form{
+    width: 400px;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: 190px;
+   
+  }
+
+  
+  .footer-one-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+  }
+  
+  .footer-two a{
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+  }
+  
+  .footer-three p{
+    color: white;
+    text-decoration: none;
+    font-size: .875rem;
+  }
+}
+
+
+
+@media (max-width: 425px){
+/* HEADER */
+.header-fondo {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assests/img/baul.jpg);
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.63);
+  height: 18.75rem;
+  gap: 1.25rem;
+}
+
+.logo-navbar {
+width: 80%;
+background-position: center;
+padding: 3.125rem;
+margin-top: .3125rem;
+height: 7.5rem;
+}
+
+.list-navbar {
+  flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 10px;
+
+}
+
+.list-navbar a {
+  font-size: 1rem;
+  
+}
+
+.logo-header img {
+  width: 230px;
+  height: 35px;
+  
+}
+
+/* PAG CONTACTANOS */
+
+.form {
+  width: 18.75rem;
+  height: 37.5rem;
+}
+
+.form-tittle{
+  font-size: 1.25rem;
+  padding: 20px 0;
+}
+
+.form-paragraph{
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.input{
+  width: 100%;
+  padding: 18px 3px;
+  margin-bottom: .4375rem;
+}
+
+.form-submit{
+  margin-top: 1.875rem;
+  font-size: .9375rem;  border: none;
+}
+
+  /* FOOTER */
+  .footer {
+    height: auto;
+    flex-direction: column;
+    gap: 1.875rem;
+    text-align: center;
+   
+  }
+  
+  .footer-one{
+    margin-top: 1.875rem;
+  }
+  
+  .footer-three{
+  margin-bottom: 1.875rem;
+  }
+  
+  .footer-one-nav a{
+    font-size: .625rem;
+  }
+  
+  .footer-two a{
+    font-size: .625rem;
+  }
+  
+  .footer-three p{
+    font-size: .625rem;
+  }
 
 
 }
 
-@media (max-width 768px){
+@media (max-width: 320px){
+ /* HEADER */
 
+ .header-fondo {
+  display: block;
+  flex-direction: column;
+  background-image: url(../assests/img/baul.jpg);
+  width: 100%;
+  height: auto;
+}
 
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.63);
+  height: 18.75rem;
+  gap: 1.25rem;
+}
+
+.logo-navbar {
+width: 90%;
+background-position: center;
+padding: 50px;
+margin-top: 0px;
+}
+
+.list-navbar {
+  flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 20px;
 
 }
 
-@media (max-width 425px){
-
-
-
+.list-navbar a {
+  font-size: 1rem;
+  
 }
 
-@media (max-width 320px){
+.logo-header img{
+height: 0rem;
+width: 0rem;
+}
 
+/* COPY */
+ /* .header-fondo {
+  background: none;
+  height: 0rem;
+ 
+} */
+
+/* .navbar{
+  flex-direction: column;
+  height: auto;
+}
+
+.logo-navbar {
+  width: 80px;
+  height: 30px;
+  margin-top: 100px;
+}
+
+.list-navbar {
+  gap: 8px;
+  flex-direction: column;
+}
+
+
+
+
+/* PAG CONTACTANOS */
+
+.form {
+  
+  width: 14.375rem;
+}
+
+.form-tittle{
+  font-size: 1rem;
+  padding: .625rem 0;
+}
+
+.form-paragraph{
+  font-size: .625rem;
+  padding: 20px 0;
+}
+
+.input{
+  width: 100%;
+  padding: 16px 2px;
+  margin-bottom: .4375rem;
+}
+
+
+.form-submit{
+  margin-top: 1.5625rem;
+  font-size: .75rem;
+  border: none;
+}
+
+/* FOOTER */
+.footer {
+  height: auto;
+  flex-direction: column;
+  gap: 1.875rem;
+  text-align: center;
+ 
+}
+
+.footer-one{
+  margin-top: 1.875rem;
+}
+
+.footer-three{
+margin-bottom: 1.875rem;
+}
+
+.footer-one-nav a{
+  font-size: .625rem;
+}
+
+.footer-two a{
+  font-size: .625rem;
+}
+
+.footer-three p{
+  font-size: .625rem;
+}
 
 
 }
