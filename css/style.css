@@ -440,7 +440,7 @@ padding: 4.375rem 2.5rem;
   align-items: center;
   height: 220px;
   gap: 2.5rem;
-  margin-bottom: 80px;
+  margin-bottom: 15px;
 }
 
 .presentation-container h2{
@@ -458,12 +458,14 @@ padding: 4.375rem 2.5rem;
   flex-direction: column;
   gap: 20px;
   width: 100%;
+  padding: 0 6.25rem;
   justify-content: center;
 }
 
 .parrafo-container { 
   padding: 20px;
   text-align: justify;
+  
 }
 
 .parrafo-titulo {
@@ -475,7 +477,7 @@ padding: 4.375rem 2.5rem;
 .content-container p {
   margin-bottom: 15px; 
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 700;
   
 }
 
@@ -488,7 +490,7 @@ padding: 4.375rem 2.5rem;
   margin-bottom: 5px;
   list-style: none;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 
@@ -657,10 +659,70 @@ height: 7.5rem;
 }
 
 .logo-header img {
-  width: 230px;
-  height: 35px;
+  width: 0;
+  height: 0;
   
 }
+
+/* PAG ENVIOS */
+
+.fondo-envios{
+
+  padding: 30px 40px;
+}
+
+
+
+.presentation-container h2{
+  font-size: 1.875rem;
+  color: #D4C08B;
+}
+
+.presentation-container h6{
+  font-size: 1.125rem;
+  color: black;
+  text-align: justify;
+ 
+}
+
+.content-container{
+  gap: 15px;
+  padding: 0 .625rem;
+  justify-content: center;
+}
+
+.parrafo-container { 
+  padding: 0 10px;
+  text-align: justify;
+  
+}
+
+.parrafo-titulo {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #D4C08B;
+}
+
+.content-container p {
+  margin-bottom: 15px; 
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+.content-container ul {
+  margin-bottom: 15px;  
+  padding-left: 20px; 
+}
+
+.content-container li {
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
 
 /* PAG CONTACTANOS */
 
@@ -767,30 +829,63 @@ height: 0rem;
 width: 0rem;
 }
 
-/* COPY */
- /* .header-fondo {
-  background: none;
-  height: 0rem;
+
+/* PAG ENVIOS */
+
+.fondo-envios{
+
+  padding: 10px 20px;
+}
+
+
+.presentation-container h2{
+  font-size: 24px;
+  color: #D4C08B;
+}
+
+.presentation-container h6{
+  font-size: 1rem;
+  color: black;
+  text-align: justify;
  
-} */
-
-/* .navbar{
-  flex-direction: column;
-  height: auto;
 }
 
-.logo-navbar {
-  width: 80px;
-  height: 30px;
-  margin-top: 100px;
+.content-container{
+  gap: 12px;
+  padding: 0 .625rem;
+  justify-content: center;
 }
 
-.list-navbar {
-  gap: 8px;
-  flex-direction: column;
+.parrafo-container { 
+  padding: 0 10px;
+  text-align: justify;
+  
 }
 
+.parrafo-titulo {
+  margin-bottom: 15px;
+  font-size: 1.125rem;
+  color: #D4C08B;
+}
 
+.content-container p {
+  margin-bottom: 15px; 
+  font-size: .875rem;
+  font-weight: 600;
+  
+}
+
+.content-container ul {
+  margin-bottom: 15px;  
+  padding-left: 20px; 
+}
+
+.content-container li {
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: .875rem;
+  font-weight: 700;
+}
 
 
 /* PAG CONTACTANOS */
@@ -822,6 +917,8 @@ width: 0rem;
   font-size: .75rem;
   border: none;
 }
+
+/* PAG ENVIOS */
 
 /* FOOTER */
 .footer {
