@@ -105,7 +105,7 @@ justify-self: center;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 25%);
-  grid-template-rows: repeat(3, 25%);
+  grid-template-rows: repeat(2, 90%);
   grid-template-areas: 
   "image-uno image-dos image-tre"
   "a b c";
@@ -492,6 +492,89 @@ padding: 4.375rem 2.5rem;
   font-size: 1.125rem;
   font-weight: 700;
 }
+
+/* CARRITO */
+
+.section-cart-container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: 
+  "one one two"
+  "one one two"
+  "tre tre tre";
+  margin-top: 1.875rem;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.cart-container{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  height: 300px;
+  gap: 20px;
+  border: solid 2px;
+  justify-content: center;
+  align-items: center;
+  grid-area: one;
+}
+
+.cart-container img{
+width: 80px;
+height: 60px;
+}
+
+.cart-container h2{
+font-size: 20px;
+
+}
+
+.cart-container p{
+  font-size: 16px;
+
+}
+
+.cart-container a{
+  height: 2.5rem;
+  width: 25%;
+  background: #6c63ff;
+  padding: .9375rem 1.25rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: white;
+  border-radius: .3125rem;
+  text-align: center;
+}
+
+.sidebar-container{
+  grid-area: two;
+}
+
+
+
+
+
+.gallery-cart-container{
+  grid-area: tre;
+  margin-bottom: 200px;
+}
+
+.cart-box-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+
+}
+
+.cart-box img{
+  width: 200px;
+  height: 200px;
+}
+
 
 
 
