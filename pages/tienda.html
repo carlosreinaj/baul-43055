@@ -4,6 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css"/>
   </head>
   <body class="body">
@@ -22,114 +23,186 @@
         <figure class="logo-header"><img src="../assests/img/logoenletras-removebg-preview.png" alt=""></figure>
       </section>
     </header>
+
+
     <main class="fondo-segundo">
-      <div>
-        <h2>Bienvenidos a nuestra Tienda</h2>
-        <p>En este lugar encontaras los mejores articulos para ti!</p>
-      </div>
-      <div>
-        <div>
-          <h5>Precio</h5>
-          <img src="#" alt="#" />
-          <p>$0,00</p>
-          <p>$30.000,00</p>
-        </div>
-        <div>
-          <h5>Tipo de Producto</h5>
-          <a href="#">Celulares y accesorios</a>
-          <a href="#">moda y accesorios</a>
-          <a href="#">Tv, Audio, Video</a>
-          <a href="#">Deportes</a>
-          <a href="#">Hogar</a>
-        </div>
-      </div>
-      <section>
-        <div>
+
+      <section class="t-container">
+
+        <section class="t-presentation">
           <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
+            <h2>Bienvenidos a nuestra Tienda</h2>
+            <p>En este lugar encontaras los mejores articulos para ti!</p>
+          </div>
+        </section>
+     
+        <section class="t-side">
+          <div>
+            <h5 class="bg-primary">Precio</h5>
+            <img src="#" alt="#" />
+            <p>$0,00</p>
+            <p>$30.000,00</p>
           </div>
           <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
+            <h5>Tipo de Producto</h5>
+            <a href="#">Celulares y accesorios</a>
+            <a href="#">moda y accesorios</a>
+            <a href="#">Tv, Audio, Video</a>
+            <a href="#">Deportes</a>
+            <a href="#">Hogar</a>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
+
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
+
+          
+        </section>
+  
+  
+     
+        <section class="t-gallery-container">
+
+          <div class="t-gallery">
+
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/lampara-lava.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lampara de lava | Schylling</h5>
+                  <p class="card-text">$49.000,00</p>
+                  <a href="#" class="btn btn-primary bg-danger">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/patines.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Patines Profesionales | Canarian</h5>
+                  <p class="card-text">$399.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/perfumemujer.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fragancia MADEMOISELLE | COCO Chanel</h5>
+                  <p class="card-text">$339.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 14rem;">
+                <img src="../assests/img/CHAQUETA-AZUL-MEDIO-CN-0020436.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chaqueta de Algodon | Under Armor</h5>
+                  <p class="card-text">$249.000,00</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+            </div>
+    
+           
+
+  
+          <div class="t-numberbar">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-primary">1</button>
+                <button type="button" class="btn btn-primary">2</button>
+                <button type="button" class="btn btn-primary">3</button>
+                <button type="button" class="btn btn-primary">4</button>
+              </div>
+              <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-secondary">5</button>
+                <button type="button" class="btn btn-secondary">6</button>
+                <button type="button" class="btn btn-secondary">7</button>
+              </div>
+              <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-info">8</button>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p>Chaqueta de Algodon | Under Armor</p>
-            <p>$249.000,00</p>
-            <a href=""></a>
-          </div>
-        </div>
-        <div>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <span>...</span>
-          <div>12</div>
-          <div>
-            <a href=""></a>
-          </div>
-        </div>
+        </section>
       </section>
+
+      
+
     </main>
+
+
+
+
+
     <footer class="footer">
 
       <div class="footer-one">
@@ -176,6 +249,10 @@
       </div>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e129c8324a.js" crossorigin="anonymo#
+
   </body>
 </html>

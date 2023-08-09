@@ -9,11 +9,13 @@
 /* index */
 
 .body {
+
   font-family: "Times New Roman", Times, serif;
   background-color: #2f3a4c;
 }
 
 .header-fondo {
+  
   display: flex;
   flex-direction: column;
   background-image: url(../assests/img/baul.jpg);
@@ -25,6 +27,10 @@
 }
 
 .navbar {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   background: rgba(0, 0, 0, 0.63);
   color: #745821;
   display: flex;
@@ -32,6 +38,7 @@
 }
 
 .logo-navbar {
+
   display: flex;
   background-image: url(../assests/img/logo.png);
   background-size: cover;
@@ -60,6 +67,7 @@
 }
 
 .list-navbar a {
+
   text-decoration: none;
   font-size: 1.375rem;
   font-weight: 600;
@@ -321,6 +329,7 @@ display: block;
 
 
 .footer {
+
   display: flex;
   width: 100%;
   height: 200px;
@@ -330,6 +339,7 @@ display: block;
 }
 
 .footer-one, .footer-two, .footer-three{
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -337,22 +347,28 @@ display: block;
 }
 
 .footer-tittle{
+
   font-size: 1rem;
   color: white;
   padding: 15px;;
 }
 
 .footer-one-nav a{
+
   color: white;
   text-decoration: none;
 }
 
 .footer-two a{
+
   color: white;
   text-decoration: none;
 }
 
 .footer-three p{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   color: white;
   text-decoration: none;
 }
@@ -554,9 +570,6 @@ font-size: 20px;
 }
 
 
-
-
-
 .gallery-cart-container{
   grid-area: tre;
   margin-bottom: 200px;
@@ -575,6 +588,82 @@ font-size: 20px;
   height: 200px;
 }
 
+
+/* TIENDA-BOOTSTRAP */
+
+.t-container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: 
+  "a a a"
+  "c b b"
+  "c b b"
+  "c b b";
+  /* margin-top: 1.875rem; */
+  gap: 2.5rem;
+  justify-content: space-between;
+  margin-bottom: 400px;
+}
+
+.t-presentation{
+  grid-area: a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assests/img/saud-edum-Mk-iBDS4CS0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: .625rem;
+}
+.t-presentation div h2{
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  color:#745821 ;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.t-presentation div p{
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
+  color: #6c63ff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.t-side{
+  grid-area: c;
+}
+
+.t-gallery-container{
+  grid-area: b;
+}
+
+/* .t-gallery{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: 
+  "a a a"
+  "c b b"
+  "c b b"
+  "c b b";
+  margin-top: 1.875rem;
+  gap: 1.25rem;
+  justify-content: center;
+} */
+
+.t-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .9375rem;
+  padding: 100px;
+}
 
 
 
