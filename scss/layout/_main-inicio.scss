@@ -1,0 +1,249 @@
+main{
+    .section-one{
+        background-image: url(../assests/img/piratelego.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        width: 100%;
+        height: 324px;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+        margin-top: 40px;
+        color: white;
+        .section-one-logo{
+            display: flex;
+            /* width: 100%; */
+            justify-content: center;
+            align-content: center;
+            height: 100%;
+        }
+        .section-one-textos{
+            width: 25%;
+            h1{
+                padding-bottom: 1.875rem;
+            }
+        }
+    }
+    .section-two{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 25%);
+        grid-template-rows: repeat(2, 90%);
+        grid-template-areas: 
+        "image-uno image-dos image-three"
+        "a b c";
+        margin-top: 1.875rem;
+        gap: 1.25rem;
+        justify-content: space-evenly;
+        .image-uno{
+            grid-area: image-uno;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
+            }
+            h2{
+                color: white;
+                padding: 0.5rem 0;
+                text-align: center;
+                margin: 20px 0;
+            }
+        }
+        .image-dos{
+            grid-area: image-dos;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
+            }
+            h2{
+                color: white;
+                padding: 0.5rem 0;
+                text-align: center;
+                margin: 20px 0;
+            }
+        }
+        .image-three{
+            grid-area: image-three;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
+            }
+            h2{
+                color: white;
+                padding: 0.5rem 0;
+                text-align: center;
+                margin: 20px 0;
+            }
+        }
+        .section-two-cta{
+            height: 8%;
+            width: 35%;
+            background: #6c63ff;
+            padding: 1.25rem 2.1875rem;
+            margin-top: 3rem;
+            justify-self: center;
+            border-radius: .3125rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            a{
+                text-decoration: none;
+                color: white;
+                justify-self: center;
+                align-self: center;
+                display: block;
+            }
+            &:hover{
+                background: #27246d;
+            }
+        }   
+    }
+    .section-three{
+        display: flex;
+        width: 100%;
+        height: 20.25rem;
+        background-color: rgb(27, 10, 27);
+        color: white;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 15px;
+        margin-top: 3.125rem;
+        div{
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+                border-radius: 50%;
+                object-fit: cover;
+                justify-content: center;
+                align-content: center;
+            }
+        }
+        .section-three-textos{
+            width: 40%;
+            h2{
+                padding-bottom: 1.875rem;
+            }
+            p{
+                padding-bottom: 1.875rem;
+            }
+            a{
+                display: inline-block;
+                background: #6c63ff;
+                padding: .9375rem 1.875rem;
+                margin-top: 1em;
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    background: #27246d;
+                }
+            }
+        }
+    }
+    .section-four{
+        display: flex;
+        width: 100%;
+        height: 20.3125rem;
+        flex-direction: column;
+        margin-top: 3.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: .625rem;
+        padding: 20px 0;
+        .section-four-boxes{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-evenly;
+            .section-four-box{
+                display: flex;
+                width: 18%;
+                flex-direction: column;
+                background-color: #D9D9D9;
+                justify-content: center;
+                align-items: center;
+                border-radius: .3125rem;
+                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
+                img{
+                    margin-bottom: .9375rem;
+                }
+                .section-four-textos{
+                    padding: 20px;
+                    text-align: center;
+                }
+            }
+            .section-four-box-atencion{
+                img{
+                    margin-bottom: 0px;
+                    height: 70px;
+                }
+            }
+        }
+        .section-four-cta{
+            a{
+                display: inline-block;
+                width: 100%;
+                background: #6c63ff;
+                padding: .9375rem 1.875rem;
+                margin-top: 2rem;
+                justify-self: center;
+                text-decoration: none;
+                color: white;
+            }
+            &:hover{
+                background: #27246d;
+            }
+        }
+    }
+    .section-five{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        .section-five-boxes{
+            display: flex;
+            width: 100%;
+            padding: 20px 0;
+            justify-content: space-evenly;
+            margin-left: 20px;
+            div{
+                width: 100%;
+                height: 100%;
+                figure{
+                    .section-five-images{
+                        width: 90%;
+                        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
+                        }
+                }
+                h4{
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+        }
+        .section-five-cta{
+            display: block;
+            a{
+                width: 100%;
+                background: #6c63ff;
+                padding: .9375rem 1.875rem;
+                text-decoration: none;
+                color: white;
+            }
+            &:hover{
+                background: #27246d;
+            }
+        }
+    }
+}
