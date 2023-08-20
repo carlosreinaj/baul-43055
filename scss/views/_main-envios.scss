@@ -1,0 +1,58 @@
+.fondo-envios{
+    background: linear-gradient(to right, #243949da 0%, #517fa4d2 100%), url(../assests/img/pirateship.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 50px 70px 100px 70px;
+    .envios-presentation{
+        .presentation-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 220px;
+            gap: 2.5rem;
+            margin-bottom: 15px;
+            h2{
+                font-size: 2.5rem;
+                color: #D4C08B;
+            }
+            h6{
+                font-size: 1.5rem;
+                color: black;
+            }
+        }
+    }
+    .content-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 0 6.25rem;
+        justify-content: center;
+        .parrafo-container{
+            padding: 20px;
+            text-align: justify;
+            .parrafo-titulo{
+                margin-bottom: 20px;
+                font-size: 1.25rem;
+                color: #D4C08B;
+            }
+            p{
+                margin-bottom: 15px; 
+                font-size: 1.125rem;
+                font-weight: 700;
+            }
+            ul{
+                margin-bottom: 15px;  
+                padding-left: 20px; 
+                li{
+                    margin-bottom: 5px;
+                    list-style: none;
+                    font-size: 1.125rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

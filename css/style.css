@@ -251,8 +251,8 @@ main .section-four {
     justify-self: center;
     text-decoration: none;
     color: white; }
-  main .section-four .section-four-cta:hover {
-    background: #27246d; }
+    main .section-four .section-four-cta a:hover {
+      background: #27246d; }
 
 main .section-five {
   width: 100%;
@@ -290,3 +290,258 @@ main .section-five {
       color: white; }
     main .section-five .section-five-cta:hover {
       background: #27246d; }
+
+.fondo-contactanos {
+  background: linear-gradient(to right, #243949 0%, #517fa438 100%), url(../assests/img/baul-fondo-lux.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; }
+  .fondo-contactanos .form-container {
+    padding: 4.375rem 2.5rem; }
+    .fondo-contactanos .form-container .form {
+      width: 50rem;
+      background: #fff;
+      margin: 0 auto;
+      padding: 30px 20px 40px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
+      .fondo-contactanos .form-container .form .form-tittle {
+        padding: 20px 0; }
+      .fondo-contactanos .form-container .form .form-paragraph {
+        padding: 20px 0; }
+      .fondo-contactanos .form-container .form .input {
+        width: 100%;
+        padding: 20px 5px;
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid #b39b9b;
+        outline: none; }
+      .fondo-contactanos .form-container .form .form-message {
+        max-width: 100%;
+        max-width: 100%;
+        min-height: 150px;
+        max-height: 150px; }
+      .fondo-contactanos .form-container .form .form-submit {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        background-image: linear-gradient(to right, #304352 100%, #d7d2cc 0%);
+        padding: 15px 30px;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer; }
+        .fondo-contactanos .form-container .form .form-submit:hover {
+          background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); }
+
+.fondo-envios {
+  background: linear-gradient(to right, #243949da 0%, #517fa4d2 100%), url(../assests/img/pirateship.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 50px 70px 100px 70px; }
+  .fondo-envios .envios-presentation .presentation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    gap: 2.5rem;
+    margin-bottom: 15px; }
+    .fondo-envios .envios-presentation .presentation-container h2 {
+      font-size: 2.5rem;
+      color: #D4C08B; }
+    .fondo-envios .envios-presentation .presentation-container h6 {
+      font-size: 1.5rem;
+      color: black; }
+  .fondo-envios .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 0 6.25rem;
+    justify-content: center; }
+    .fondo-envios .content-container .parrafo-container {
+      padding: 20px;
+      text-align: justify; }
+      .fondo-envios .content-container .parrafo-container .parrafo-titulo {
+        margin-bottom: 20px;
+        font-size: 1.25rem;
+        color: #D4C08B; }
+      .fondo-envios .content-container .parrafo-container p {
+        margin-bottom: 15px;
+        font-size: 1.125rem;
+        font-weight: 700; }
+      .fondo-envios .content-container .parrafo-container ul {
+        margin-bottom: 15px;
+        padding-left: 20px; }
+        .fondo-envios .content-container .parrafo-container ul li {
+          margin-bottom: 5px;
+          list-style: none;
+          font-size: 1.125rem;
+          font-weight: 700; }
+
+.fondo-segundo .section-cart-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: "one one two" "one one two" "tre tre tre";
+  margin-top: 1.875rem;
+  gap: 1.25rem;
+  justify-content: center; }
+  .fondo-segundo .section-cart-container .cart-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    grid-area: one; }
+    .fondo-segundo .section-cart-container .cart-container img {
+      width: 80px;
+      height: 60px; }
+    .fondo-segundo .section-cart-container .cart-container h2 {
+      font-size: 20px; }
+    .fondo-segundo .section-cart-container .cart-container p {
+      font-size: 16px; }
+    .fondo-segundo .section-cart-container .cart-container a {
+      height: 2.5rem;
+      width: 25%;
+      background: #6c63ff;
+      padding: .9375rem 1.25rem;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: white;
+      border-radius: .3125rem;
+      text-align: center; }
+  .fondo-segundo .section-cart-container .sidebar-container {
+    grid-area: two;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 31.25rem;
+    background: #fff;
+    margin: 0 auto;
+    padding: 30px 20px 40px;
+    gap: 1.875rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
+  .fondo-segundo .section-cart-container .gallery-cart-container {
+    grid-area: tre;
+    margin-bottom: 200px; }
+    .fondo-segundo .section-cart-container .gallery-cart-container .cart-box-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 30px; }
+      .fondo-segundo .section-cart-container .gallery-cart-container .cart-box-container .cart-box img {
+        width: 200px;
+        height: 200px; }
+
+.fondo-segundo .t-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: "a a a" "c b b" "c b b" "c b b";
+  gap: 2.5rem;
+  justify-content: space-between;
+  margin-bottom: 400px; }
+  .fondo-segundo .t-container .t-presentation {
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assests/img/skycrapers.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: .625rem; }
+    .fondo-segundo .t-container .t-presentation div h2 {
+      font-size: 5rem;
+      font-weight: 700;
+      font-family: 'Times New Roman', Times, serif;
+      color: #745821; }
+    .fondo-segundo .t-container .t-presentation div p {
+      font-size: 2rem;
+      font-weight: 300;
+      font-family: 'Times New Roman', Times, serif;
+      color: #6c63ff; }
+  .fondo-segundo .t-container .t-side {
+    grid-area: c;
+    justify-self: center;
+    width: 70%;
+    height: 50%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 30px 20px 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
+    .fondo-segundo .t-container .t-side .side-title h5 {
+      margin-bottom: 2.5rem;
+      font-size: 2rem;
+      font-weight: 300; }
+    .fondo-segundo .t-container .t-side .side-label {
+      margin-bottom: 2.5rem; }
+    .fondo-segundo .t-container .t-side .side-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem; }
+      .fondo-segundo .t-container .t-side .side-list ul {
+        list-style: none; }
+        .fondo-segundo .t-container .t-side .side-list ul li a {
+          text-decoration: none;
+          text-align: start;
+          color: black;
+          font-size: 16px;
+          font-weight: 300; }
+  .fondo-segundo .t-container .t-gallery-container {
+    grid-area: b; }
+    .fondo-segundo .t-container .t-gallery-container .t-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5625rem;
+      padding: 100px; }
+      .fondo-segundo .t-container .t-gallery-container .t-gallery .card {
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
+        .fondo-segundo .t-container .t-gallery-container .t-gallery .card:hover {
+          background-color: #27246d; }
+        .fondo-segundo .t-container .t-gallery-container .t-gallery .card img {
+          padding: 10px 20px; }
+        .fondo-segundo .t-container .t-gallery-container .t-gallery .card .card-body .card-title {
+          color: black; }
+        .fondo-segundo .t-container .t-gallery-container .t-gallery .card .card-body .card-text {
+          color: black; }
+        .fondo-segundo .t-container .t-gallery-container .t-gallery .card .card-body .buton-cards {
+          background-color: #D4C08B; }
+          .fondo-segundo .t-container .t-gallery-container .t-gallery .card .card-body .buton-cards:hover {
+            background-color: #745821; }
+      .fondo-segundo .t-container .t-gallery-container .t-gallery .t-numberbar .btn-toolbar .btn-group .buton-class1 {
+        background-color: #6c63ff; }
+      .fondo-segundo .t-container .t-gallery-container .t-gallery .t-numberbar .btn-toolbar .btn-group .buton-class2 {
+        background-color: #D4C08B; }
+      .fondo-segundo .t-container .t-gallery-container .t-gallery .t-numberbar .btn-toolbar .btn-group .buton-class3 {
+        background-color: #745821; }
+
+.form {
+  width: 700px; }
+
+main .section-two {
+  padding-bottom: 3.125rem; }
+  main .section-two .section-two-cta {
+    font-size: 14px;
+    width: 50%; }
+
+main .section-five {
+  margin-top: 20px;
+  margin-bottom: 75px; }
+
+main .section-three {
+  margin-top: 70px; }
