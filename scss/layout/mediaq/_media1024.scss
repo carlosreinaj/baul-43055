@@ -1,21 +1,23 @@
-.form{
-    width: 700px;
-}
-
-main{
-    .section-two{
-        padding-bottom: 3.125rem;
-        .section-two-cta {
-            font-size: 14px;
-            width: 50%;
-            }
+@media(max-width: 1024px){
+    .form{
+        width: 700px;
     }
-    .section-five{
-        margin-top: 20px;
-        margin-bottom: 75px;
-    }
-    .section-three {
-        margin-top: 70px;
+    
+    main{
+        .section-two{
+            padding-bottom: 3.125rem;
+            .section-two-cta {
+                font-size: 14px;
+                width: 50%;
+                }
+        }
+        .section-five{
+            margin-top: 20px;
+            margin-bottom: 75px;
+        }
+        .section-three {
+            margin-top: 70px;
+        }
     }
 }
 

@@ -1,0 +1,102 @@
+@media (max-width: 768px){
+    header{
+        .header-fondo{
+            height: 200pX;
+            gap: 35px;
+            .navbar{
+                .logonavbar{
+                    width: 11.875rem;
+                    height: 4.375rem;
+                    margin-top: .3125rem;
+                }
+                .listnavbar{
+                    gap: 15px;
+                    a{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        .logo-header{
+            img{
+                width: 34rem;
+                height: 4.375rem;
+            }
+        }
+    }
+    // INICIO
+    main{
+        .section-one{
+            justify-content: space-evenly;
+            width: 100%;
+            .section-one-logo{
+                width: 50%;
+            }
+            .section-one-textos{
+                width: 25%;
+                margin-right: 20px;
+                h1{
+                    font-size: 1.25rem;
+                }
+                p{
+                    font-size: .875rem;
+                    text-align: justify;
+                }
+            }
+        }
+        .section-two{
+            margin-bottom: 70px;
+            .section-two-cta{
+                width: 70%;
+            }
+        }
+        .section-three{
+            margin-top: 70px;
+        }
+    }
+    // CONTACTANOS
+    .fondo-contactanos{
+        .form-container{
+            .form{
+                width: 400px;
+            }
+        }
+    }
+    // FOOTER
+    .footer{
+        height: 190px;
+        .footer-one{
+            .footer-one-nav{
+                ul{
+                    li{
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: .875rem;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-two{
+            nav{
+                ul{
+                    li{
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            font-size: .875rem;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-three{
+            p{
+                color: white;
+                text-decoration: none;
+                font-size: .875rem;
+            }
+        }
+    }
+}
