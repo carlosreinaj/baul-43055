@@ -1,6 +1,8 @@
 // variables, mixins y funciones
 @import "./base/reset";
 @import "./base/typo";
+@import "./utilities/mixins";
+@import "./utilities/variables";
 // contenido
 @import "./base/body";
 @import "./layout/header";

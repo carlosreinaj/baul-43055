@@ -71,9 +71,11 @@ header .logo-header {
   align-items: center; }
   .footer .footer-one {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-content: space-evenly; }
+    justify-content: none;
+    align-items: space-evenly;
+    gap: none;
+    flex-wrap: wrap; }
     .footer .footer-one .footer-one-nav ul li a {
       color: white;
       text-decoration: none; }
@@ -103,10 +105,10 @@ main .section-one {
   color: white; }
   main .section-one .section-one-logo {
     display: flex;
-    /* width: 100%; */
+    flex-direction: row;
     justify-content: center;
-    align-content: center;
-    height: 100%; }
+    align-items: center;
+    gap: none; }
   main .section-one .section-one-textos {
     width: 25%; }
     main .section-one .section-one-textos h1 {
@@ -121,42 +123,22 @@ main .section-two {
   margin-top: 1.875rem;
   gap: 1.25rem;
   justify-content: space-evenly; }
-  main .section-two .image-uno {
+  main .section-two .image-uno, main .section-two .image-dos, main .section-two .image-three {
     grid-area: image-uno; }
-    main .section-two .image-uno img {
+    main .section-two .image-uno img, main .section-two .image-dos img, main .section-two .image-three img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
-    main .section-two .image-uno h2 {
+    main .section-two .image-uno h2, main .section-two .image-dos h2, main .section-two .image-three h2 {
       color: white;
       padding: 0.5rem 0;
       text-align: center;
       margin: 20px 0; }
   main .section-two .image-dos {
     grid-area: image-dos; }
-    main .section-two .image-dos img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
-    main .section-two .image-dos h2 {
-      color: white;
-      padding: 0.5rem 0;
-      text-align: center;
-      margin: 20px 0; }
   main .section-two .image-three {
     grid-area: image-three; }
-    main .section-two .image-three img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603); }
-    main .section-two .image-three h2 {
-      color: white;
-      padding: 0.5rem 0;
-      text-align: center;
-      margin: 20px 0; }
   main .section-two .section-two-cta {
     height: 8%;
     width: 35%;
@@ -347,8 +329,8 @@ main .section-five {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 220px;
     gap: 2.5rem;
+    height: 220px;
     margin-bottom: 15px; }
     .fondo-envios .envios-presentation .presentation-container h2 {
       font-size: 2.5rem;

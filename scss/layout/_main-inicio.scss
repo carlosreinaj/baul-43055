@@ -12,11 +12,7 @@ main{
         margin-top: 40px;
         color: white;
         .section-one-logo{
-            display: flex;
-            /* width: 100%; */
-            justify-content: center;
-            align-content: center;
-            height: 100%;
+            @include flex (row, center, center, none);
         }
         .section-one-textos{
             width: 25%;
@@ -53,38 +49,16 @@ main{
         }
         .image-dos{
             grid-area: image-dos;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
-            }
-            h2{
-                color: white;
-                padding: 0.5rem 0;
-                text-align: center;
-                margin: 20px 0;
-            }
+            @extend .image-uno;
         }
         .image-three{
             grid-area: image-three;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
-            }
-            h2{
-                color: white;
-                padding: 0.5rem 0;
-                text-align: center;
-                margin: 20px 0;
-            }
+            @extend .image-uno;
         }
         .section-two-cta{
             height: 8%;
             width: 35%;
-            background: #6c63ff;
+            background: $color-buttons;
             padding: 1.25rem 2.1875rem;
             margin-top: 3rem;
             justify-self: center;

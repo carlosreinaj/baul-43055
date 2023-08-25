@@ -6,12 +6,8 @@
     padding: 50px 70px 100px 70px;
     .envios-presentation{
         .presentation-container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex (column, center, center, 2.5rem);
             height: 220px;
-            gap: 2.5rem;
             margin-bottom: 15px;
             h2{
                 font-size: 2.5rem;

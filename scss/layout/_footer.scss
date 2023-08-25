@@ -6,10 +6,8 @@
     justify-content: space-evenly;
     align-items: center;
     .footer-one{
-        display: flex;
+        @include flex (column, none, space-evenly, none);
         flex-wrap: wrap;
-        flex-direction: column;
-        align-content: space-evenly;
         .footer-one-nav{
             ul{
                 li{
