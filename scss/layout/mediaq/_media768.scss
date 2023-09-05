@@ -54,6 +54,18 @@
             margin-top: 70px;
         }
     }
+    // CARRITO
+    .fondo-segundo{
+        .section-cart-container{
+            height: 118.75rem;
+            .cart-container{
+                height: 37.5rem;
+                a{
+                    width: 45%;
+                }
+            }
+        }
+    }
     // CONTACTANOS
     .fondo-contactanos{
         .form-container{

@@ -19,5 +19,19 @@
             margin-top: 70px;
         }
     }
+    .fondo-segundo{
+        .section-cart-container{
+            .cart-container{
+                a{
+                    width: 35%;
+                }
+            }
+        }
+        .gallery-cart-container{
+            .cart-box-container{
+                justify-content: center;
+            }
+        }
+    }
 }
 
