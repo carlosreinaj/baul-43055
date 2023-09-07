@@ -53,6 +53,11 @@
         .section-three{
             margin-top: 70px;
         }
+        .section-five{
+            margin-top: 15px;
+            margin-bottom: 55px;
+            padding-top: 0;
+        }
     }
     // CARRITO
     .fondo-segundo{
@@ -71,6 +76,54 @@
         .form-container{
             .form{
                 width: 400px;
+            }
+        }
+    }
+    // TIENDA
+    .fondo-segundo{
+        .t-container{
+            grid-template-columns: repeat(3, 25%);
+            grid-template-rows: repeat(4, 18%);
+            grid-template-areas: 
+            "a a a"
+            "c b b"
+            "c b b"
+            "c b b";
+            gap: 10px;
+            .t-presentation{
+                height: 25rem;
+                margin-top: .9375rem;
+                div{
+                    h2{
+                        font-size: 3.75rem;
+                    }
+                    p{
+                        font-size: 1.5625rem;
+                    }
+                }
+            }
+            .t-side{
+                width: 90%;
+                margin-top: 0px;
+            }
+            .t-gallery-container{
+                margin-top: 0px;
+                gap: 40px;
+                .t-gallery{
+                    gap: .9375rem;
+                    .card{
+                        width: 200px;
+                        height: 360px;
+                        .card-body{
+                            h5{
+                                font-size: 16px;
+                            }
+                            p{
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

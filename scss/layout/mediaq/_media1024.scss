@@ -33,5 +33,38 @@
             }
         }
     }
+    .fondo-segundo{
+        .t-container{
+            margin-bottom: 200px; 
+            .t-presentation{
+                height: 30rem;
+                margin-top: .9375rem;
+            }
+            .t-side{
+                width: 90%;
+                margin-top: 0px;
+                height: 70%;
+            }
+            .t-gallery-container{
+                margin-top: 0px;
+                gap: 40px;
+                .t-gallery{
+                    gap: .9375rem;
+                    .card{
+                        width: 190px;
+                        height: 360px;
+                        .card-body{
+                            h5{
+                                font-size: 16px;
+                            }
+                            p{
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
