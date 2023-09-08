@@ -954,6 +954,61 @@ color: #b39b9b;
 }
 
 
+/* NOT FOUND  */
+.main-404{
+  background-image: url(../assests/img/triste.jpg);
+  background-position: center;
+  /* background-size: cover; */
+  height: 100vh;
+}
+
+.container-404{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.container-404 h1{
+  font-size: 8rem;
+  color: #745821;
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.603);
+  text-align: center;
+}
+
+.container-404 p{
+  font-size: 6rem;
+  color: black;
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.603);
+  text-align: center;
+}
+
+
+.container-404 a{
+  display: inline-block;
+  background: #6c63ff;
+  padding: .9375rem 1.875rem;
+  margin-top: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+.container-404 a:hover{
+  background: #27246d;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1070,6 +1125,19 @@ color: #b39b9b;
 .card-body p{
   font-size: 13px;
 }
+
+/* NOTFOUND */
+
+
+.container-404 h1{
+  font-size: 7rem;
+}
+
+.container-404 p{
+  font-size: 5rem;
+}
+
+
 }
 
 
@@ -1251,6 +1319,16 @@ width: 50%;
 
 .card-body p{
   font-size: 13px;
+}
+
+/* NOTFOUND 768 */
+
+.container-404 h1{
+  font-size: 6rem;
+}
+
+.container-404 p{
+  font-size: 4rem;
 }
 
 }
@@ -1741,6 +1819,21 @@ justify-content: center;
     font-size: .625rem;
   }
 
+  /* NOTFOUND 425 */
+
+.container-404 h1{
+  font-size: 5rem;
+}
+
+.container-404 p{
+  font-size: 3rem;
+}
+
+.container-404 a{
+  padding: .625rem 1.5625rem;
+  font-size: .875rem;
+}
+
   }
 
 
@@ -2199,6 +2292,21 @@ margin-bottom: 1.875rem;
 
 .t-numberbar{
 padding: 20px;
+}
+
+/* NOTFOUND 320 */
+
+.container-404 h1{
+  font-size: 4rem;
+}
+
+.container-404 p{
+  font-size: 2rem;
+}
+
+.container-404 a{
+  padding: .625rem 1.5625rem;
+  font-size: .875rem;
 }
 
 }

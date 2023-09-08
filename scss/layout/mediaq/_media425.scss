@@ -418,4 +418,18 @@ main{
             }
         }
     }
+    .main-404{
+        .container-404{
+            h1{
+                font-size: 5rem;
+            }
+            p{
+                font-size: 3rem;
+            }
+            a{
+                padding: .625rem 1.5625rem;
+                font-size: .875rem;
+            }
+        }
+    }
 }

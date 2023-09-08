@@ -1,0 +1,40 @@
+.main-404{
+    background-image: url(../assests/img/triste.jpg);
+    background-position: center;
+    /* background-size: cover; */
+    height: 100vh;
+    .container-404{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 40px;
+        h1{
+            font-size: 8rem;
+            color: #745821;
+            text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.603);
+            text-align: center;
+        }
+        p{
+            font-size: 6rem;
+            color: black;
+            text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.603);
+            text-align: center;
+        }
+        a{
+            display: inline-block;
+            background: #6c63ff;
+            padding: .9375rem 1.875rem;
+            margin-top: 1em;
+            text-decoration: none;
+            color: white;
+            &:hover{
+                background: #27246d;
+            }
+        }
+    }
+}
